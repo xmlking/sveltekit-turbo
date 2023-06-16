@@ -13,10 +13,10 @@ Other Commands
 ```shell
 # Add a new changeset
 pnpm changeset
- 
+
 # Create new versions of packages
 pnpm changeset version
- 
+
 # Publish all changed packages to npm
 pnpm changeset publish -r
 ```
@@ -32,6 +32,7 @@ Our recommendation is to add a publish-packages script into your root `package.j
   }
 }
 ```
+
 > We recommend `publish-packages` so that it doesn't conflict with npm's built-in publish script.
 
 ## Reference

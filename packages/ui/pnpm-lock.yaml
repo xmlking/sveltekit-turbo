@@ -1,0 +1,20 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  eslint-config-custom:
+    specifier: workspace:*
+    version: link:../eslint-config-custom
+  svelte:
+    specifier: 3.59.1
+    version: 3.59.1
+
+packages:
+
+  /svelte@3.59.1:
+    resolution: {integrity: sha512-pKj8fEBmqf6mq3/NfrB9SLtcJcUvjYSWyePlfCqN9gujLB25RitWK8PvFzlwim6hD/We35KbPlRteuA6rnPGcQ==}
+    engines: {node: '>= 8'}
+    dev: true
